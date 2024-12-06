@@ -104,6 +104,6 @@ ${OVERRIDE_FILE}:  # It does not overwrite the existing file
 overrides: ${OVERRIDE_FILE}
 
 # Auto run full (frequently-used) routines
-irail: build exec
+cxr: build exec
 test:
 	docker compose -p ${PROJECT} exec ${SERVICE} /bin/zsh test.sh
